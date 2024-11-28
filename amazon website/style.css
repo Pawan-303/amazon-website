@@ -1,0 +1,119 @@
+:root {
+    --navcolor: rgb(35, 47, 62);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+nav div{
+    border: 1px solid var(--navcolor);
+    align-items: center;
+}
+.navbar div:hover{
+    border-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: var(--navcolor);
+    display: flex;
+    justify-content: space-between;
+}
+
+.address{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.address a{
+    text-align: center;
+}
+
+.searchbar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.searchbar input{
+    border: none;
+    padding: 10px;
+    width: 400px;
+    color: var(--navcolor);
+}
+
+.searchbar button {
+    border: none;
+    padding: 10px;
+    color: var(--navcolor);
+}
+.searchbar button:hover{
+    cursor: pointer;
+}
+
+.language{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.language-selector {
+    background-color: var(--navcolor);
+    border-color: var(--navcolor);
+}
+.language-selector:hover{
+    border-color: var(--navcolor);
+}
+.account{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.order{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.cart{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.cart img{
+    height:30px ;
+    margin: 0;
+}
+
+.subnavbar{
+    background-color: rgb(79, 89, 102);
+    display: flex;
+    padding: 0px;
+}
+.subnavbar .sidebar{
+    display: flex;
+    border: 2px solid rgb(79, 89, 102);
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.subnavbar .subnavitems{
+    justify-content: space-between;
+    border: none;
+}
+.subnavbar .subnavitems a span{
+    margin: 1px;
+    padding: 3px;
+    font-weight: 400;
+    border: 1px solid rgb(79, 89, 102);;
+}
+.subnavbar .subnavitems a span:hover{
+    border-color: white;
+
+}
