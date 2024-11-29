@@ -1,0 +1,155 @@
+:root {
+    --navcolor: rgb(35, 47, 62);
+    --headercolor:rgb(209, 201, 201);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color:white;
+}
+
+nav div{
+    border: 1px solid var(--navcolor);
+    align-items: center;
+}
+.navbar div:hover{
+    border-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: var(--navcolor);
+    display: flex;
+    justify-content: space-between;
+}
+
+.address{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.address a{
+    text-align: center;
+}
+
+.searchbar{
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+}
+.searchbar .category{
+    border: none;
+    padding: 9px;
+    width: 60px;
+    color: black;
+    background-color:rgb(174, 184, 196);
+}
+.searchbar .category option{
+    color:black;
+    background-color: white;
+}
+
+.searchbar input{
+    border: none;
+    padding: 10px;
+    width: 400px;
+    color: var(--navcolor);
+    margin: 0px;
+}
+
+.searchbar button {
+    border: none;
+    padding: 10px;
+    color: var(--navcolor);
+    margin: 0px;
+}
+.searchbar button:hover{
+    cursor: pointer;
+    background-color: rgb(161, 127, 161);
+}
+
+.language{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.language-selector {
+    background-color: var(--navcolor);
+    border-color: var(--navcolor);
+}
+.language-selector:hover{
+    border-color: var(--navcolor);
+}
+.account{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.order{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.cart{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.cart img{
+    height:30px ;
+    margin: 0;
+}
+
+.subnavbar{
+    background-color: rgb(79, 89, 102);
+    display: flex;
+    padding: 0px;
+    justify-content: flex-start;
+}
+.subnavbar .sidebar:hover{
+    border-color: white;
+}
+.subnavbar .sidebar{
+    display: flex;
+    border: 2px solid rgb(79, 89, 102);
+    padding: 5px;
+    margin: 0px;
+}
+.subnavbar .sidebar a {
+    display: flex;
+    gap: 4px;
+    
+}
+
+.subnavbar .subnavitems{
+    border: none;
+    display :flex;
+    justify-content: flex-start;
+    gap:0px;
+}
+.subnavbar .subnavitems a span{
+    margin: 1px;
+    padding: 3px;
+    font-weight: 400;
+    border: 1px solid rgb(79, 89, 102);;
+}
+.subnavbar .subnavitems a span:hover{
+    border-color: white;
+}
+
+
+
+/* ----------------------------------------------Css for section starting --------------------------------------------------*/
+
+section{
+    background-color: var(--headercolor);
+    height: 1000px;
+    margin:0px;
+}
